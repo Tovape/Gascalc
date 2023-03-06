@@ -15,7 +15,6 @@ import busboy from 'connect-busboy'
 import fs from 'fs-extra'
 import initialize from './passport-config.js'
 import fetch from 'node-fetch'
-console.log("hola")
 import path from 'path';
 import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
@@ -84,7 +83,6 @@ app.all('/node_modules/*', function (req,res, next) {
 });
 
 // USE
-
 app.use(express.json({limit: '20mb'}));
 app.use(express.urlencoded({limit: '20mb', extended: false}));
 app.use(bodyParser.json({limit: '20mb'}));
@@ -211,7 +209,8 @@ app.get('/dashboard', checkAuthenticated, async (req, res) => {
 	res.render('dashboard.ejs', { user_data: req.user }),
 	app.use(express.static(__dirname + '/css')),
 	app.use(express.static(__dirname + '/files')),
-	app.use(express.static(__dirname + '/js'))
+	app.use(express.static(__dirname + '/js')),
+	app.use(express.static(__dirname + '/vendor'))
 })
 
 app.get('/resetpassword', checkNotAuthenticated, (req, res) => {
