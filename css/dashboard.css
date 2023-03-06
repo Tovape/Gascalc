@@ -47,6 +47,20 @@
   box-sizing: border-box;
 }
 
+.filters {
+	padding-top: 10px;
+}
+
+.filters span {
+	cursor:pointer;
+	color: white;
+	padding-left: 20px !important;
+}
+
+#logoall {
+	height: 60px; 
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
