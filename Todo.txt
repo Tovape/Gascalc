@@ -1,0 +1,8 @@
+1- Diseño
+2- Maquetacion Paginas views
+3- 
+
+
+API de Gasolineras:
+https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/
+Avg: 18sec

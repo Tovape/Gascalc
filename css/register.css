@@ -1,0 +1,209 @@
+/* Register */
+
+html,body {
+	height: 100% !important;
+	width: 100% !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background: url("../icons/house.png") 200px 200px repeat;
+}
+
+.register {
+	width: 1000px;
+	height: calc(80% - 50px);
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background-color: var(--white);
+	box-shadow: 0px 4px 20px 0px var(--shadowbar);
+}
+
+.register-each {
+	height: calc(100% - 40px);
+	padding: 20px;
+}
+
+.register-each:first-child {
+	width: calc(40% - 40px);
+	border-radius: 10px 0 0 10px;
+	background: linear-gradient(20deg, var(--fourth) 0%, var(--tertiary) 100%);
+}
+
+.register-each:last-child {
+	width: 60%;
+	border-radius: 0 10px 10px 0;
+	background-color: var(--purewhite);
+}
+
+.register-each-logo {
+	height: 50px;
+}
+
+.register-each-logo img {
+	width: auto;
+	height: 50px;
+}
+
+.register-each-content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-each:first-child .register-each-content {
+	height: calc(100% - 50px);
+}
+
+.register-each:last-child .register-each-content {
+	height: 100%;
+}
+
+.register-each-content p {
+	text-align: center;
+}
+
+.register-each-content a {
+	display: block;
+	text-align: center;
+	color: var(--white);
+	text-decoration: underline;
+}
+
+.register-each-content-welcome{
+	font-size: var(--railway);
+	font-size: var(--bigfont);
+	padding-bottom: 10px;
+	color: var(--white);
+}
+
+.register-each-content-introduction{
+	padding-bottom: 50px;
+	color: var(--white);
+}
+
+.register-each-content-text{
+	color: var(--white);
+}
+
+.register-each-form-title {
+	font-family: var(--opensans);
+	font-size: var(--bigfont);
+	text-align: center;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+/* Form */
+
+.register-each-content form {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-each-content form a {
+	padding-top: 20px;
+	color: var(--black);
+}
+
+.register-each-content form div {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	outline: 1px solid transparent;
+	background-color: rgb(232, 240, 254);
+}
+
+.register-each-content form input {
+	border: none;
+	background-color: transparent;
+	width: calc(100% - 70px);
+	padding: 20px;
+}
+
+.register-each-content form input::placeholder{
+	font-family: var(--opensans);
+	color: var(--black);
+	font-size: var(--undfont);
+}
+
+.register-each-content form div:hover {outline: 1px solid var(--primary);}
+.register-each-content form input:focus {outline: none;}
+.register-each-content form input[type="text"] {font-family: var(--opensans); font-size:var(--undfont);}
+.register-each-content form input[type="email"] {font-family: var(--opensans); font-size:var(--undfont);}
+.register-each-content form input[type="password"] {font-family: var(--opensans); font-size:var(--undfont);}
+
+.fa-user,.fa-key,.fa-at {
+	width: 20px;
+	color: black;
+	padding: 20px 0 20px 20px;
+}
+
+.register-each-form-button {
+	color: var(--white);
+	font-family: var(--raleway);
+	margin-top: 20px;
+	padding: 20px 60px;
+	background-color: var(--fourth);
+	border-radius: 4px;
+	border: 1px solid var(--primary);
+	transition: all 0.2s ease-in-out;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.register-each-form-button:hover {
+	color: var(--primary);
+	background-color: var(--fifth);
+	transition: all 0.2s ease-in-out;
+}
+
+.register-each-form-button:active{
+	background-color: var(--sixth);
+	transition: all 0.2s ease-in-out;
+}
+
+/* Author */
+
+.author {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+/* Error Handle */
+
+.register-error-div{
+	height: 20px;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+#register-error-email {
+	display: none;
+}
+
+#register-error-password {
+	display: none;
+}
+
+.register-error-on {
+	display: block !important;
+}
