@@ -23,6 +23,32 @@
 
 <body>
 
+<?php
+
+session_start();
+include_once './conn.php';
+
+if (isset($_POST["submit"])) {
+	$date = new DateTimeImmutable();
+    $sql = "insert into users (username, email, password, timestamp) values ('".$_POST['name']."', '".$_POST['email']."','".md5($_POST['password'])."','".$date->getTimestamp()."')";
+
+	if ($conn->query($sql) === TRUE) {
+		$temp = 1;
+	} else {
+		echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+
+    if ($temp === 1) {
+        $_SESSION["email"] = $_POST["email"];
+        setcookie("email", $_POST["email"], time()+100);
+        header("Location: index.php");
+    }
+} else if (isset($_SESSION["email"])) {
+    header("Location: index.php");
+}
+
+?>
+
 <div class="register">
 	<div class="register-each">
 		<div class="register-each-logo">
@@ -44,20 +70,20 @@
 				<p id="register-error-email" key="register-error-email">Email Not Valid</p>
 				<p id="register-error-password" key="register-error-password">Password must be at least 6 characters with number</p>
 			</div>
-			<form action="/register" method="POST">
+			<form action="./register.php" method="POST">
 				<div>
 					<i class="fa-solid fa-user"></i>
-					<input type="text" id="name" name="name" placeholder="Name" value="" required>
+					<input type="text" id="name" name="name" placeholder="Name" value="username" required>
 				</div>
 				<div>
 					<i class="fa-solid fa-at"></i>
-					<input type="email" id="email" name="email" placeholder="Email" value="" required>
+					<input type="email" id="email" name="email" placeholder="Email" value="username@gmail.com" required>
 				</div>
 				<div>
 					<i class="fa-solid fa-key"></i>
-					<input type="password" id="password" name="password" placeholder="Password" required>
+					<input type="password" id="password" name="password" placeholder="Password" value="password123" required>
 				</div>				
-				<button key="register-register" class="register-each-form-button" type="submit" onclick="startRegex()">Register</button>
+				<button class="register-each-form-button" type="submit" value="submit" name="submit" onclick="startRegex()">Register</button>
 			</form>
 		</div>
 	</div>

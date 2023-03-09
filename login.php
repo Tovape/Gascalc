@@ -23,6 +23,30 @@
 
 <body>
 
+<?php
+
+session_start();
+include_once './conn.php';
+
+if (isset($_POST["submit"])) {
+    $sql = "select * from users where email = '".$_POST["email"]."' and password = '".md5($_POST["password"])."'";
+    $resultat = mysqli_query($conn, $sql);
+
+    while ($fila = mysqli_fetch_assoc($resultat)) {
+        $temp = 1;
+    }
+
+    if ($temp === 1) {
+        $_SESSION["email"] = $_POST["email"];
+        setcookie("email", $_POST["email"], time()+100);
+        header("Location: dashboard.php");
+    }
+} else if (isset($_SESSION["email"])) {
+    header("Location: dashboard.php");
+}
+
+?>
+
 <div class="register">
 	<div class="register-each">
 		<div class="register-each-logo">
@@ -45,16 +69,16 @@
 
 				</p>
 			</div>
-			<form action="/login" method="POST">
+			<form action="./login.php" method="POST">
 				<div>
 					<i class="fa-solid fa-at"></i>
-					<input type="email" id="email" name="email" placeholder="Email" required>
+					<input type="email" id="email" name="email" placeholder="Email" value="username@gmail.com" required>
 				</div>
 				<div>
 					<i class="fa-solid fa-key"></i>
-					<input type="password" id="password" name="password" placeholder="Password" required>
+					<input type="password" id="password" name="password" placeholder="Password" value="password123" required>
 				</div>				
-				<button key="register-login" class="register-each-form-button" type="submit">Login</button>
+				<button key="register-login" class="register-each-form-button" type="submit" value="submit" name="submit">Login</button>
 				<a key="register-forgotpassword" href="/resetpassword">Forgot Password? Click Here</a>
 			</form>
 		</div>

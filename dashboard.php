@@ -20,6 +20,17 @@
 
 <body>
 
+<?php
+
+session_start();
+include_once './conn.php';
+
+if ($_SESSION["email"] == null) {
+	header("Location: index.php");
+}
+
+?>
+
 </body>
 
 </html>

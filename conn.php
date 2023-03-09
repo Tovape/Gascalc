@@ -1,0 +1,1 @@
+<?php	$server = "localhost";	$username = "root";	$password = "";	$dbname = "gascalc";			$conn = new mysqli($server, $username, $password, $dbname);			header("Content-Type: text/html;charset=utf-8");
