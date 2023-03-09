@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-	<link rel="icon" href="../files/icons/logo.svg" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="global.css">
-	<link rel="stylesheet" type="text/css" href="register.css">
-	<link rel="stylesheet" type="text/css" href="global-responsive.css">
-	<link rel="stylesheet" type="text/css" href="register-responsive.css">
+	<link rel="icon" href="./files/icons/logo.svg" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="./css/global.css">
+	<link rel="stylesheet" type="text/css" href="./css/register.css">
+	<link rel="stylesheet" type="text/css" href="./css/global-responsive.css">
+	<link rel="stylesheet" type="text/css" href="./css/register-responsive.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<!-- Fonts -->
@@ -19,10 +19,6 @@
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.2.0/quicklink.umd.js"></script>
-	<script type="text/javascript" src="global-javascript.js"></script>
-	<script type="text/javascript" src="global-language.js"></script>
-	<script type="text/javascript" src="register-language.js"></script>
-	<script type="text/javascript" src="register-javascript.js"></script>
 </head>
 
 <body>
@@ -31,14 +27,14 @@
 	<div class="register-each">
 		<div class="register-each-logo">
 			<a href="/">
-				<img data-lazy="/logo/logo.png">
+				<img data-lazy="./files/logo/logo.png">
 			</a>
 		</div>
 		<div class="register-each-content">
 			<p key="register-title" class="register-each-content-welcome">Hello!<br>Say Hi to a better place!</p>
 			<p key="register-subtitle" class="register-each-content-introduction">Use your account to access our platform and content</p>
 			<p key="register-switch-1" class="register-each-content-text">Already have an account?</p>
-			<a key="register-login" href="/login">Login</a>
+			<a key="register-login" href="./login.php">Login</a>
 		</div>
 	</div>
 	<div class="register-each">
@@ -66,8 +62,6 @@
 		</div>
 	</div>
 </div>
-
-
 
 </body>
 

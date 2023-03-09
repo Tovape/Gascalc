@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-	<link rel="icon" href="../files/icons/logo.svg" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="icon" href="./files/icons/logo.svg" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <head>
@@ -11,7 +11,7 @@
 	<script src="https://kit.fontawesome.com/6308dbf55d.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script type="text/javascript" src="../js/index-javascript.js"></script>
+	<script type="text/javascript" src="./js/index-javascript.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.2.0/quicklink.umd.js"></script>
 </head>
 
@@ -21,7 +21,7 @@
 
 <div class="menu">
 	<div class="logo">
-		<img src="../files/icons/logo.svg">
+		<img src="./files/icons/logo.svg">
 	</div>
 		
 	<div class="dropdown"></div><div class="dropdown"></div>
@@ -59,14 +59,14 @@
 	</div>
 	
 	<div class="button button-orange flex6">
-		<a href="./login">Login</a>
+		<a href="./login.php">Login</a>
 	</div>
 		
 </div>
 
 <div class="menutext">
 	<div class="logo">
-		<img src="../files/icons/logo.svg">
+		<img src="./files/icons/logo.svg">
 	</div>
 	
 	<button id="bar" class="" onclick="menudropper()"><i class="fa fa-bars fa-2x"></i></button>
@@ -90,7 +90,7 @@
 		</div>
 		<br>
 		<div class="button button-orange flex6">
-			<a>Try for Free</a>
+			<a href="./login.php">Login</a>
 		</div>
 		<br>
 	</div>
@@ -123,19 +123,19 @@
 <div class="perform-flex">
 	
 	<div class="perform-each">
-		<img src="../files/all/clock.png">
+		<img src="./files/all/clock.png">
 		<h2>Speed up your finances</h2>
 		<p>Simply create an account and get you car collection with stats on your dashboard</p>
 	</div>
 	
 	<div class="perform-each">
-		<img src="../files/all/safe.png">
+		<img src="./files/all/safe.png">
 		<h2>Protect Savings</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mi eros, dictum in nulla eget, hendrerit eleifend lorem. Nunc tincidunt odio at finibus pharetra</p>
 	</div>
 	
 	<div class="perform-each">
-		<img src="../files/all/analytic.png">
+		<img src="./files/all/analytic.png">
 		<h2>Analytics</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mi eros, dictum in nulla eget, hendrerit eleifend lorem. Nunc tincidunt odio at finibus pharetra</p>
 	</div>
