@@ -30,7 +30,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">GAS<span>CALC</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -39,7 +39,7 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="./" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="services.html" class="nav-link">Servicios</a></li>
-	          <li class="nav-item"><a href="car.html" class="nav-link">Coches</a></li>
+	          <li class="nav-item"><a href="car.php" class="nav-link">Coches</a></li>
 	          <li class="nav-item"><a href="./login.php" class="nav-link">Login</a></li>
 	        </ul>
 	      </div>
@@ -53,8 +53,8 @@
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
           <div class="col-lg-8 ftco-animate">
           	<div class="text w-100 text-center mb-md-5 pb-md-5">
-	            <h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
-	            <p style="font-size: 18px;">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
+	            <h1 class="mb-4">Conduce más inteligente, ahorra en cada viaje.</h1>
+	            <p style="font-size: 18px;">Controla tu consumo de combustible y ahorra dinero en cada viaje. Únete a nuestra comunidad de conductores eficientes.</p>
 	            <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
 	            	<div class="icon d-flex align-items-center justify-content-center">
 	            		<span class="ion-ios-play"></span>
@@ -74,8 +74,8 @@
     	<div class="container">
     		<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">What we offer</span>
-            <h2 class="mb-2">Feeatured Vehicles</h2>
+          	<span class="subheading">PARA TI</span>
+            <h2 class="mb-2">Personaliza tu garage</h2>
           </div>
         </div>
     		<div class="row">
@@ -91,7 +91,7 @@
 			    						<span class="cat">Cheverolet</span>
 			    						<p class="price ml-auto">$500 <span>/day</span></p>
 		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Seleccionar</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalles</a></p>
 		    					</div>
 		    				</div>
     					</div>
@@ -105,7 +105,7 @@
 			    						<span class="cat">Cheverolet</span>
 			    						<p class="price ml-auto">$500 <span>/day</span></p>
 		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Seleccionar</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalles</a></p>
 		    					</div>
 		    				</div>
     					</div>
@@ -119,7 +119,7 @@
 			    						<span class="cat">Cheverolet</span>
 			    						<p class="price ml-auto">$500 <span>/day</span></p>
 		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Seleccionar</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalles</a></p>
 		    					</div>
 		    				</div>
     					</div>
@@ -133,7 +133,7 @@
 			    						<span class="cat">Cheverolet</span>
 			    						<p class="price ml-auto">$500 <span>/day</span></p>
 		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Seleccionar</a> <a href="#" class="btn btn-secondary py-2 ml-1">Detalles</a></p>
 		    					</div>
 		    				</div>
     					</div>
@@ -150,12 +150,11 @@
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate">
 	          <div class="heading-section heading-section-white pl-md-5">
-	          	<span class="subheading">About us</span>
-	            <h2 class="mb-4">Welcome to Carbook</h2>
+	          	<span class="subheading">Sobre nosotros</span>
+	            <h2 class="mb-4">Bienvenido a GASCALC</h2>
 
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p><a href="#" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
+	            <p>En nuestra web podrás encontrar herramientas para ahorrar dinero en gasolina, como una calculadora de consumo de combustible, opción para compartir gastos de gasolina con amigos, una dashboard personalizada para tu coche, y una herramienta para consultar precios de gasolineras en tiempo real. Conviértete en un conductor más eficiente y ahorra dinero en cada viaje.</p>
+	            <p><a href="#" class="btn btn-primary py-3 px-4">Encuentra tu vehiculo</a></p>
 	          </div>
 					</div>
 				</div>
@@ -166,17 +165,35 @@
 			<div class="container">
 				<div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2 class="mb-3">Our Latest Services</h2>
+          	<span class="subheading">Servicios</span>
+            <h2 class="mb-3">Nuestros Servicios</h2>
           </div>
         </div>
 				<div class="row">
 					<div class="col-md-3">
 						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wedding-car"></span></div>
+            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-handshake" style="font-size:50px;"></span></div>
             	<div class="text w-100">
-                <h3 class="heading mb-2">Wedding Ceremony</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">CONSUMO</h3>
+                <p>Calculadora de consumo de combustible, podrás conocer cuánto estás gastando en gasolina por kilómetro recorrido.</p>
+              </div>
+            </div>
+					</div>
+					<div class="col-md-3">
+						<div class="services services-2 w-100 text-center">
+            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-dashboard" style="font-size:50px;"></span></div>
+            	<div class="text w-100">
+                <h3 class="heading mb-2">GARAGE</h3>
+                <p>Selecciona tu coche y personalizalo para poder ver todas sus propiedades en cualquier momento.</p>
+              </div>
+            </div>
+					</div>
+					<div class="col-md-3">
+						<div class="services services-2 w-100 text-center">
+            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-pistons" style="font-size:50px;"></span></div>
+            	<div class="text w-100">
+                <h3 class="heading mb-2">GASOLINERAS</h3>
+                <p>Comprueba tu mimso el precio de todas las gasolineras cercanas para repostar al mejor precio siempre.</p>
               </div>
             </div>
 					</div>
@@ -184,26 +201,8 @@
 						<div class="services services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
             	<div class="text w-100">
-                <h3 class="heading mb-2">City Transfer</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-					</div>
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-car"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">Airport Transfer</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-					</div>
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">Whole City Tour</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">AMIGOS</h3>
+                <p>Opción para compartir los gastos de gasolina con amigos, lo que te permitirá dividir el costo del combustible entre los pasajeros.</p>
               </div>
             </div>
 					</div>
@@ -216,8 +215,8 @@
 			<div class="container">
 				<div class="row justify-content-end">
 					<div class="col-md-6 heading-section heading-section-white ftco-animate">
-            <h2 class="mb-3">Do You Want To Earn With Us? So Don't Be Late.</h2>
-            <a href="#" class="btn btn-primary btn-lg">Become A Driver</a>
+            <h2 class="mb-3">Te gustaria disponer de tu garaje personalizado ya?</h2>
+            <a href="#" class="btn btn-primary btn-lg">Crea tu propio garaje</a>
           </div>
 				</div>
 			</div>
@@ -228,8 +227,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Testimonial</span>
-            <h2 class="mb-3">Happy Clients</h2>
+          	<span class="subheading">Testimonios</span>
+            <h2 class="mb-3">Clientes Contentos</h2>
           </div>
         </div>
         <div class="row ftco-animate">
