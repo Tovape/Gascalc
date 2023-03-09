@@ -1,0 +1,4 @@
+dashboard - elegir coche y ver informacion de el
+coches - buscar nuevo coche y añadir a nuestra colecion
+precios - ver el precio de gasolineras de españa y del coche selecionado
+ajustes - cambiar el tema de la pagina web
