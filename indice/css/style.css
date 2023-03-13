@@ -442,6 +442,22 @@ pre {
     color: inherit;
     word-break: normal; }
 
+/* CUSTOM */
+
+.lighted {
+	border-radius:4px;
+	border: 1px solid var(--green);
+	background-color: var(--white);
+}
+
+.lighted a {
+	color: var(--green) !important;
+}
+
+
+
+/*******/
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }

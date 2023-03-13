@@ -28,6 +28,20 @@
   </head>
   <body>
     
+<?php
+
+session_start();
+include_once './conn.php';
+
+ini_set('display_errors', 0);
+
+
+if ($_SESSION["email"] == null) {
+	$_SESSION["email"] = null;
+}
+
+?>
+	
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">Car<span>Book</span></a>
@@ -40,7 +54,16 @@
 	          <li class="nav-item active"><a href="./" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="services.html" class="nav-link">Servicios</a></li>
 	          <li class="nav-item"><a href="car.html" class="nav-link">Coches</a></li>
-	          <li class="nav-item"><a href="./login.php" class="nav-link">Login</a></li>
+				<?php
+				
+				if ($_SESSION["email"] == null) {
+					echo "<li class='nav-item lighted'><a href='./login.php' class='nav-link'>Login</a></li>";
+				} else {
+					echo "<li class='nav-item lighted'><a href='./dashboard.php' class='nav-link'>Dashboard</a></li>";
+				}
+				
+				?>
+	          
 	        </ul>
 	      </div>
 	    </div>
